@@ -1,0 +1,39 @@
+﻿# Build outputs
+**/bin/
+**/obj/
+**/artifacts/
+artifacts/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs / traces / screenshots
+*.log
+*.pdb
+**/logs/
+**/screenshots/
+**/traces/
+
+# Playwright
+**/.playwright/
+**/ms-playwright/
+
+# Secrets / local config
+**/appsettings.json
+.env
+.env.*
+*.secrets
+*.secret
+*.key
+*.pem
+*.pfx
+*.snk
